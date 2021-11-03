@@ -1,0 +1,26 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.2.2/dist/echarts.js"></script>
+    <link rel="stylesheet" href="./scss/style.css" />
+  </head>
+  <body>
+    <div class="chart-container">
+      <div class="form-div">
+        <div class="input-div">
+          <label for="font-color">Font color (Hex)</label>
+          <input type="text" name="font-color" placeholder="#000000" />
+        </div>
+        <div class="input-div">
+          <label for="font-size">Font size (px)</label>
+          <input type="text" name="font-size" placeholder="e.g. 16" />
+        </div>
+      </div>
+      <div id="main" style="width: 100%; height: 100%"></div>
+    </div>
+
+    <!-- Chart Script -->
+    <script src="app.js"></script>
+  </body>
+</html>
